@@ -1,4 +1,7 @@
 # Performance-Testing-in-R-using-Apache-JMeter
+
+Detailed instructions with screenshots are [published here](https://qainsights.com/performance-testing-in-r-using-apache-jmeter/)
+
 # Prerequisites
 * Download R 3.6.1 for Windows and validate the checksum
 * Download R Tools for Windows
