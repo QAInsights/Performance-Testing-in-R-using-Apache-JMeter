@@ -112,3 +112,6 @@ When it comes to CI/CD pipeline, you can seamlessly integrate the R script to ru
 loadtest enables developers/testers who are working extensively on R. Under the hood, it uses Apache JMeter to create a script and execution. By default, the results has T-Mobile branded colors.
 
 If you are working on R, definitely you could try this package and suggest the team for the new features and improvements in the GitHub issues.
+
+# Donate
+<a target="_blank" href="https://www.buymeacoffee.com/qainsights"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a tea"><span style="margin-left:15px;font-size:28px !important;">Buy me a tea</span></a>
