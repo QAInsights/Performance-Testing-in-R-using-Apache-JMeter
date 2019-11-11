@@ -12,14 +12,10 @@ Detailed instructions with screenshots are [published here](https://qainsights.c
 # Using RGui
 After successful installation of R, you could find RGui.exe in your system. RGui runs as a standard Windows GUI executable and provides an R console in its own window.
 
-Launch RGui where you can see the R Console as shown below.
+Launch RGui where you can see the R Console.
 
-RGui - Performance Testing in R using Apache JMeter
-RGui – Performance Testing in R using Apache JMeter
 Just type print("Hello World") in the console and hit enter to see the response.
 
-Hello World in R
-Hello World in R
 Now, let’s configure JMeter to run a simple load test in R. Either you can setup the Environment Variable for JMeter or you can setup during the runtime.
 
 Copy the below R snippet and save it as LoadTestDemo.r in your favorite folder.
@@ -56,17 +52,10 @@ In RGui, go to File > Open Script and open the LoadTestDemo.r file. R script wil
 Press Ctrl + A to select all the lines and then Press Ctrl + R shortcut key to run the script.
 
 When you run, it will prompt you to select the CRAN mirrors as shown below.
-
-CRAN Mirrors
-CRAN Mirrors
 Either select the nearest mirror or select 0-Cloud [https] as shown above and hit OK.
 
 After hitting OK, R will download the packages sequentially and executes the load test, print the results, plots the graph, and generates the HTML output.
 
-This is the graph R plotted for the results.
-
-R Graphs
-R Graphs
 Output has been created at C:\apache-jmeter-5.2\bin\LoadTestReport.html
 
 # How it works?
@@ -83,8 +72,6 @@ summary =     10 in 00:00:01 =    7.7/s Avg:    88 Min:    29 Max:   572 Err:   
 Tidying up ...    @ Sun Nov 10 14:22:40 EST 2019 (1573413760446)
 ... end of run
 After successful run, the JMX file will gets deleted automatically.
-
-Please check my GitHub repository for the sample code and the HTML output.
 
 # Using VS Code
 I am fond of VS Code and uses daily even for note-taking. VS Code is a very powerful editor and IDE; its very famous among the developers. VS Code Marketplace has a extension for R.
